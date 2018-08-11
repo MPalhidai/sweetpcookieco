@@ -16,8 +16,8 @@
 
 /* form and modal start */
 
-.modal-size {
-  margin: 1.75rem auto;
+.modal-dialog {
+  max-width: 750px;
 }
 
 /* form and modal end */
