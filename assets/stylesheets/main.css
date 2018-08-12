@@ -1,11 +1,45 @@
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
+/* header */
 
+.navbar {
+  background-color: pink;
+}
 
+/* header */
 
+/* highlight */
 
+.max {
+  max-height: 500px;
+  max-width: 500px;
+}
 
+.min {
+  min-height: 50%;
+  min-width: 50%;
+}
 
+/* highlight */
+
+/* footer */
+
+footer {
+  background-color: pink;
+}
+
+.footer-link {
+  color: gray;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+/* footer */
 
 
 
