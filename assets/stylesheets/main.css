@@ -1,34 +1,87 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  /* color scheme Powder #BFD8D2 Peach #FEDCD2 Warm #DF744A Lemon #DCB239 */
+  /* color scheme Clean #A7D2CB Butter #F2D388 Salmon #C98474 Eggplant #874C62 */
+}
+
+.row {
+  margin: 0;
 }
 
 /* header */
 
 .navbar {
-  background-color: pink;
+  background-color: #f9f9f9;
+}
+
+.navbar-brand {
+  margin-right: 0.5rem;
+}
+
+.brand_a {
+  font-family: 'Satisfy', cursive;
+  display: inline;
+  font-size: 2rem;
+}
+
+.brand_b {
+  padding-left: 0.5rem;
+  display: inline;
+}
+
+.btn {
+  background-color: #FEDCD2;
 }
 
 /* header */
 
 /* highlight */
 
-.max {
-  max-height: 500px;
-  max-width: 500px;
+#highlight {
+  background-color: #FEDCD2;
 }
 
-.min {
-  min-height: 50%;
-  min-width: 50%;
+.big {
+  font-size: 2rem;
+}
+
+.bigger {
+  font-size: 6rem;
+  font-family: 'Satisfy', cursive;
+}
+
+.btn_lemon {
+  background-color: #F2D388;
 }
 
 /* highlight */
 
+/* AboutMe */
+
+.title {
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+}
+
+/* AboutMe */
+
+/* Gallery */
+
+#Gallery {
+  background-color: #f9f9f9;
+}
+
+/* Gallery */
+
 /* footer */
 
 footer {
-  background-color: pink;
+  background-color: #BFD8D2;
+}
+
+footer p {
+  display: inline;
 }
 
 .footer-link {
@@ -39,19 +92,17 @@ footer {
   color: black;
 }
 
+.brand_c {
+  padding-right: 0.5rem;
+}
+
 /* footer */
-
-
-
-
-
-
-
 
 /* form and modal start */
 
 .modal-dialog {
   max-width: 750px;
+  background-color: #f9f9f9;
 }
 
 /* form and modal end */
