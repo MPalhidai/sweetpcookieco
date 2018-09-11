@@ -13,6 +13,10 @@ body {
 
 .navbar {
   background-color: #f9f9f9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navbar-brand {
@@ -39,6 +43,7 @@ body {
 /* highlight */
 
 #highlight {
+  margin-top: 72px;
   background-color: #FEDCD2;
 }
 
@@ -99,6 +104,10 @@ footer p {
 /* footer */
 
 /* form and modal start */
+
+.modal {
+  z-index: 1041;
+}
 
 .modal-dialog {
   max-width: 750px;
